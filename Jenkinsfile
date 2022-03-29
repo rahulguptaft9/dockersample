@@ -14,7 +14,7 @@ pipeline {
 	stages{
 	stage('Git') {
 		steps{
-		git 'https://github.com/rahulguptaft9/dockersample'
+		git 'https://github.com/rahulguptaft9/dockersample.git'
 		}	
 	}
 	
